@@ -1,0 +1,54 @@
+1. What does each element of the HTML does?
+
+-><!DOCTYPE> 	Defines the document type
+  <html>	Defines an HTML document
+  <head>	Contains metadata/information for the document
+  <title>	Defines a title for the document
+  <body>	Defines the document's body
+  <h1> to <h6>	Defines HTML headings
+  <p>	        Defines a paragraph
+  <br>	        Inserts a single line break
+  <hr>	        Defines a thematic change in the content
+  <table>       Defines the table
+  <td>          Table data is written in td
+  <th>          Defines the headings of the table
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Why you chose specific input types?
+
+->We choose specific input types for:
+  Improved user experience
+  Build-in Validation
+  Security
+  Better Browser integration
+ Common Input Types & Use Cases
+-------------------------------------------------------------|
+InputType	|          Purpose                           |
+----------------|--------------------------------------------|
+text	        |          General text input                |
+email	        |          Email address input               |
+password	|          Hidden text for passwords         |
+number	        |          Numeric values                    |
+tel             |          Telephone numbers                 |
+date	        |          Calendar date picker              |
+file	        |          Uploading files                   |
+checkbox	|          Binary choices (yes/no)           | 
+radio	        |          Selecting one option from many    |
+range	        |          Sliding scale input               |
+-------------------------------------------------------------|
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------3. How your navigation structure works?
+->In HTML, the navigation structure refers to how you organize and link the different parts of a website so users can move around easily. It usually involves using the <nav> element and hyperlinks (<a>) to create menus, sidebars, headers, or footers that let users go to different pages or sections.
+
+1. The <nav> Element
+The <nav> tag is a semantic HTML5 tag that defines a block of navigation links.
+
+ 2. The <a> Tag (Anchor)
+Used to create links between pages or sections.
+The href attribute defines the destination.
+
+ 3. Internal Page Navigation
+You can also link to sections within the same page using id and href="#id".
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="contact.png">
+    <title>Contact Details</title>
+</head>
+<body>
+    <a href="portfolio.html">Main</a>
+    <hr>
+    <h2>Contact form</h2>
+    <form action="">
+        Name:<input type="text" required placeholder="Enter your Name"> &nbsp; &nbsp;
+        Email:<input type="email" required placeholder="Enter your Email">&nbsp; &nbsp;
+        Phone No.:<input type="tel" required placeholder="Enter your Mobile Number"> <br> <br>
+        <textarea name="Message" rows="10" cols="30">
+               WRITE YOUR MESSAGE HERE
+        </textarea>
+
+        <h3>In which method you would like to contact?</h3>
+        <input type="checkbox" id="Message" name="Message">
+        <label for="Message">Message</label>&nbsp;
+
+        <input type="checkbox" id="Phone No." name="Phone No.">
+        <label for="Phone No.">Phone No.</label>&nbsp;
+
+        <input type="checkbox" id="Email" name="Email">
+        <label for="Email">Email</label>&nbsp;<br>
+         
+        <h3>Type of inquiry</h3>
+        <label for="General">General</label>
+        <input type="radio" id="General">
+
+        <label for="Business">Business</label>
+        <input type="radio" id="Business">
+
+        <label for="Support">Support</label>
+        <input type="radio" id="Support">
+        <br>
+        <h3>Select your gender and DOB</h3>
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+        </select><br>
+
+        <label for="DOB">DOB: </label>
+        <input type="date">
+         <br>
+        <label for="Experience">Your Experience: </label>
+        <input type="range" min="0" max="100">
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
